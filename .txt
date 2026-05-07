@@ -1,0 +1,7 @@
+Flow for this reccomondation system
+
+1.Will start from Data
+2.Preprocessing the Data based on Our needs
+3.Model building
+4.Will make a Website for this
+5.Finally will deploy this online
