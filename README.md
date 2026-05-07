@@ -1,9 +1,11 @@
 🎬 CinemaPulse: AI-Powered Movie Discovery
+
 CinemaPulse is a full-stack movie recommendation engine that combines modern web technologies with machine learning to provide users with personalized movie suggestions. By leveraging TF-IDF Content-Based Filtering and the TMDB API, CinemaPulse offers a premium "Netflix-style" experience for exploring trending titles and finding similar movies based on plot descriptions.
 
 LIVE-https://moviereccsystem-jakyvjy8tsfkanodvixqhi.streamlit.app/
 
 🌟 Key Features
+
 Premium Dark UI: A modern, responsive "Netflix-style" dashboard built with Streamlit.
 
 Intelligent Search: Real-time keyword search with auto-suggestions powered by TMDB.
@@ -19,6 +21,7 @@ High-Performance Backend: FastAPI-powered REST API with asynchronous request han
 Live Metadata: Fetches high-quality posters, backdrops, ratings, and overviews in real-time.
 
 🏗️ Technical Architecture
+
 The system is split into three main layers:
 
 Frontend: Streamlit provides the interactive UI, managing session states and routing.
@@ -28,7 +31,9 @@ API Layer: FastAPI acts as the bridge, serving local ML data and proxying reques
 Data Engine: A Python-based ML pipeline that pre-processes movie data and generates TF-IDF matrices stored as pickle files.
 
 🚀 Getting Started
+
 1. Prerequisites
+2. 
 Python 3.9+
 
 A TMDB API Key (Get one for free at themoviedb.org)
@@ -62,12 +67,19 @@ streamlit run app.py
 📂 Project Structure
 Plaintext
 ├── app.py                # Streamlit Frontend (UI/UX)
+
 ├── main.py               # FastAPI Backend (REST API)
+
 ├── movie_recc.ipynb      # ML Pipeline / Model training
+
 ├── .env                  # Environment variables (private)
+
 ├── requirements.txt      # Python dependencies
+
 ├── df.pkl                # Processed movie dataframe
+
 ├── tfidf_matrix.pkl      # Pre-computed similarity matrix
+
 └── movies_metadata.csv   # Raw dataset
 🛠️ Built With
 FastAPI - High-performance web framework.
