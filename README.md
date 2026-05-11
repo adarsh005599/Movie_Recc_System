@@ -5,7 +5,7 @@ CinemaPulse is a full-stack movie recommendation engine that combines modern web
 LIVE-https://moviereccsystem-jakyvjy8tsfkanodvixqhi.streamlit.app/
 
 
-🌟 Key Features
+🌟 Key Features 
 
 Premium Dark UI: A modern, responsive "Netflix-style" dashboard built with Streamlit.
 
